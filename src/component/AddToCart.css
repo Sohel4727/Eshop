@@ -1,0 +1,119 @@
+.main_container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid gray; */
+    border-radius: 1rem;
+    /* background-color: blanchedalmond; */
+}
+
+.addToCart_container {
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    width: 80%;
+    height: 40%;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.midle_container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartItem_warper {
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.addToCart_img {
+    width: 60%;
+    height: 30%;
+    border-radius: 15px;
+    object-fit: fill;
+}
+
+.addToCartImg_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    width: 50%;
+    height: 15%;
+    /* border: 1px solid black; */
+}
+
+.price_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 60%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    /* border: 1px solid black; */
+    position: sticky;
+    top: 7rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.qty_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 10rem;
+}
+
+.input-qty {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: burlywood; */
+    border: none;
+    width: 1.3rem
+}
+
+.addToCartSide_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 30%;
+}
+
+.cart_empty_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gif {
+    width: 25%;
+    height: 30%;
+}
+
+.price{
+    /* border : 1px solid black; */
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
